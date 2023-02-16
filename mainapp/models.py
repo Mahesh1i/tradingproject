@@ -12,3 +12,7 @@ class JsonFile(models.Model):
 
 class Greeting(models.model):
     name = models.CharField(max_field=30)
+
+   
+class Profile(models.Model):
+    city = models.CharField(max_length = 30)
