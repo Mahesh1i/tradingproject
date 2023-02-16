@@ -9,6 +9,6 @@ class JsonFile(models.Model):
     name = models.CharField(max_field=30)
     file_size = models.IntegerField()
 
-
+# greeting model 
 class Greeting(models.model):
     name = models.CharField(max_field=30)
