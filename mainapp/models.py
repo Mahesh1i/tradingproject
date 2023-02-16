@@ -8,3 +8,7 @@ class CSVFile(models.Model):
 class JsonFile(models.Model):
     name = models.CharField(max_field=30)
     file_size = models.IntegerField()
+
+
+class Greeting(models.model):
+    name = models.CharField(max_field=30)
